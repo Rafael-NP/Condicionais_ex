@@ -34,7 +34,9 @@ namespace Condicionais_ex
 
         private void tsmiex3_Click(object sender, EventArgs e)
         {
-            
+            Hide();
+            frmex3 ex3 = new frmex3();
+            ex3.Show();
         }
     }
 }
