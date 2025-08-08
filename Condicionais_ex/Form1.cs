@@ -16,5 +16,25 @@ namespace Condicionais_ex
         {
             InitializeComponent();
         }
+
+        private void tsmisair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void tsmiex1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void tsmiex2_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void tsmiex3_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
