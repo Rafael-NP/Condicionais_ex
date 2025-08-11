@@ -39,7 +39,7 @@ namespace Condicionais_ex
                 valor = livros * 12;
             else
                 valor = livros * 8;
-            txtvalor.Text = Convert.ToString(valor);
+            txtvalor.Text = valor.ToString();
         }
     }
 }

@@ -24,7 +24,9 @@ namespace Condicionais_ex
 
         private void tsmiex1_Click(object sender, EventArgs e)
         {
-            
+            Hide();
+            frmex1 ex1 = new frmex1();
+            ex1.Show();
         }
 
         private void tsmiex2_Click(object sender, EventArgs e)
