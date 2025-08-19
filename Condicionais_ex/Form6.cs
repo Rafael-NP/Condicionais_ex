@@ -29,6 +29,7 @@ namespace Condicionais_ex
             txtpeso.Clear();
             txtaltura.Clear();
             txtimc.Clear();
+            txtclasse.Clear();
             txtpeso.Focus();
         }
 
