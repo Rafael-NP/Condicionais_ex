@@ -35,6 +35,7 @@
             this.tsmiex3 = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmisair = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiex4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiex5 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,7 +56,8 @@
             this.tsmiex1,
             this.tsmiex2,
             this.tsmiex3,
-            this.tsmiex4});
+            this.tsmiex4,
+            this.tsmiex5});
             this.tsmiexs.Name = "tsmiexs";
             this.tsmiexs.Size = new System.Drawing.Size(70, 20);
             this.tsmiexs.Text = "Exercícios";
@@ -95,6 +97,13 @@
             this.tsmiex4.Text = "Exercício 4";
             this.tsmiex4.Click += new System.EventHandler(this.tsmiex4_Click);
             // 
+            // tsmiex5
+            // 
+            this.tsmiex5.Name = "tsmiex5";
+            this.tsmiex5.Size = new System.Drawing.Size(180, 22);
+            this.tsmiex5.Text = "Exercício 5";
+            this.tsmiex5.Click += new System.EventHandler(this.tsmiex5_Click);
+            // 
             // frmmenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -122,6 +131,7 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiex3;
         private System.Windows.Forms.ToolStripMenuItem tsmisair;
         private System.Windows.Forms.ToolStripMenuItem tsmiex4;
+        private System.Windows.Forms.ToolStripMenuItem tsmiex5;
     }
 }
 
