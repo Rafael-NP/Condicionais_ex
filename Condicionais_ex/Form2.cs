@@ -37,8 +37,8 @@ namespace Condicionais_ex
         {
             string nome, sexo;
             double idade, salFixo, salFinal;
-            nome = txtnome.Text;
-            sexo = txtsexo.Text;
+            nome = Convert.ToString(txtnome.Text);
+            sexo = Convert.ToString(txtsexo.Text);
             idade = Convert.ToDouble(txtidade.Text);
             salFixo = Convert.ToDouble(txtsalFixo.Text);
             if (sexo == "M" || sexo == "F")

@@ -42,5 +42,12 @@ namespace Condicionais_ex
             frmex3 ex3 = new frmex3();
             ex3.Show();
         }
+
+        private void tsmiex4_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmex4 ex4 = new frmex4();
+            ex4.Show();
+        }
     }
 }
