@@ -33,9 +33,11 @@
             this.tsmiex1 = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiex2 = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiex3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmisair = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiex4 = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiex5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmisair = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiprova = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmipex1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,6 +45,7 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmiexs,
+            this.tsmiprova,
             this.tsmisair});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -59,7 +62,7 @@
             this.tsmiex4,
             this.tsmiex5});
             this.tsmiexs.Name = "tsmiexs";
-            this.tsmiexs.Size = new System.Drawing.Size(70, 20);
+            this.tsmiexs.Size = new System.Drawing.Size(71, 20);
             this.tsmiexs.Text = "Exercícios";
             // 
             // tsmiex1
@@ -83,13 +86,6 @@
             this.tsmiex3.Text = "Exercício 3";
             this.tsmiex3.Click += new System.EventHandler(this.tsmiex3_Click);
             // 
-            // tsmisair
-            // 
-            this.tsmisair.Name = "tsmisair";
-            this.tsmisair.Size = new System.Drawing.Size(38, 20);
-            this.tsmisair.Text = "Sair";
-            this.tsmisair.Click += new System.EventHandler(this.tsmisair_Click);
-            // 
             // tsmiex4
             // 
             this.tsmiex4.Name = "tsmiex4";
@@ -103,6 +99,28 @@
             this.tsmiex5.Size = new System.Drawing.Size(180, 22);
             this.tsmiex5.Text = "Exercício 5";
             this.tsmiex5.Click += new System.EventHandler(this.tsmiex5_Click);
+            // 
+            // tsmisair
+            // 
+            this.tsmisair.Name = "tsmisair";
+            this.tsmisair.Size = new System.Drawing.Size(38, 20);
+            this.tsmisair.Text = "Sair";
+            this.tsmisair.Click += new System.EventHandler(this.tsmisair_Click);
+            // 
+            // tsmiprova
+            // 
+            this.tsmiprova.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmipex1});
+            this.tsmiprova.Name = "tsmiprova";
+            this.tsmiprova.Size = new System.Drawing.Size(49, 20);
+            this.tsmiprova.Text = "Prova";
+            // 
+            // tsmipex1
+            // 
+            this.tsmipex1.Name = "tsmipex1";
+            this.tsmipex1.Size = new System.Drawing.Size(180, 22);
+            this.tsmipex1.Text = "Exercício 1";
+            this.tsmipex1.Click += new System.EventHandler(this.tsmipex1_Click);
             // 
             // frmmenu
             // 
@@ -132,6 +150,8 @@
         private System.Windows.Forms.ToolStripMenuItem tsmisair;
         private System.Windows.Forms.ToolStripMenuItem tsmiex4;
         private System.Windows.Forms.ToolStripMenuItem tsmiex5;
+        private System.Windows.Forms.ToolStripMenuItem tsmiprova;
+        private System.Windows.Forms.ToolStripMenuItem tsmipex1;
     }
 }
 
