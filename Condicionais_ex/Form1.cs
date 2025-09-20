@@ -63,5 +63,12 @@ namespace Condicionais_ex
             frmpex1 pex1 = new frmpex1();
             pex1.Show();
         }
+
+        private void tsmipex2_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmpex2 pex2 = new frmpex2();
+            pex2.Show();
+        }
     }
 }
